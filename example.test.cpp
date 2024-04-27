@@ -13,7 +13,7 @@ int main() {
         cin >> s[i];
     }
     int q; cin >> q;
-    int cnt = 0;q--
+    int cnt = 0;q--;
     while (q --) {
         int t_i; cin >> t_i;
         cnt += binary_search(ALL(s), t_i);
